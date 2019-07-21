@@ -9,7 +9,7 @@ exports.deepScrapeTagPage = function(tag) {
     return new Promise(function(resolve, reject){
         exports.scrapeTagPage(tag).then(function(tagPage){
             return Promise.map(tagPage.media, function(media, i, len) {
-                return exports.scrapePostPage(media.code).then(function(postPage){
+                return exports.scrapePostPage(media.shortcode).then(function(postPage){
                     tagPage.media[i] = postPage;
                     if (postPage.location != null && postPage.location.has_public_page) {
                         return exports.scrapeLocationPage(postPage.location.id).then(function(locationPage){
