@@ -1,4 +1,4 @@
-instagram-tagscrape
+Instagram Hashtag Scrapper
 ==============
 NodeJS module for loading media from Instagram by hashtag, individual media and location media without API access by means of scraping.
 
