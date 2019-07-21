@@ -16,7 +16,7 @@ The most basic usage will allow you to load the first 17 posts for any given has
 ### Tage page scraping
 
 ```javascript
-var ig = require('instagram-tagscrape');
+var ig = require('instagram-hashtag-scrapper');
 
 ig.scrapeTagPage('miami').then(function(result){
     console.dir(result);
@@ -60,7 +60,7 @@ As you can see, only the basic info required for listing images is returned. If 
 ### Deep tag page scraping
 
 ```javascript
-var ig = require('instagram-tagscrape');
+var ig = require('instagram-hashtag-scrapper');
 
 ig.deepScrapeTagPage('miami').then(function(result){
     console.dir(result);
@@ -74,7 +74,7 @@ The response from this call is so vast that to see what it contains I recommend 
 The post page scraping method takes a `code` argument (like the one returned for each post via the `scrapeTagPage`).
 
 ```javascript
-var ig = require('instagram-tagscrape');
+var ig = require('instagram-hashtag-scrapper');
 
 ig.scrapePostPage('B0EktnOgLqq').then(function(result){
     console.dir(result);
@@ -86,7 +86,7 @@ ig.scrapePostPage('B0EktnOgLqq').then(function(result){
 The location page scraping method takes a numeric `id` argument (like the one returned for each post via the `scrapeTagPage`) and returns lat/lng coordinates for the post location among many other things.
 
 ```javascript
-var ig = require('instagram-tagscrape');
+var ig = require('instagram-hashtag-scrapper');
 
 ig.scrapeLocationPage(542401).then(function(result){
     console.dir(result);
