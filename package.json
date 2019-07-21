@@ -1,0 +1,34 @@
+{
+  "name": "instagram-hashtag-scrapper",
+  "version": "1.0.0",
+  "description": "NPM module for loading images from Instagram by hashtag without API access by means of scraping.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebansanti/instagram-hashtag-scrapper.git"
+  },
+  "keywords": [
+    "instagram",
+    "hashtag",
+    "scrape",
+    "scrapping"
+  ],
+  "author": "Esteban Santiesteban <@estebansanti>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebansanti/instagram-hashtag-scrapper/issues"
+  },
+  "homepage": "https://github.com/estebansanti/instagram-hashtag-scrapper/#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.1.2",
+    "nock": "9.0.2"
+  },
+  "dependencies": {
+    "bluebird": "3.4.6",
+    "request": "2.78.0"
+  }
+}
