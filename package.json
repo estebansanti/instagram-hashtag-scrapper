@@ -1,6 +1,6 @@
 {
   "name": "instagram-hashtag-scrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NPM module for loading images from Instagram by hashtag without API access by means of scraping.",
   "main": "index.js",
   "scripts": {
