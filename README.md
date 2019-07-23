@@ -2,8 +2,8 @@ Instagram Hashtag Scrapper
 ==============
 NodeJS module for loading media from Instagram by hashtag, individual media and location media without API access by means of scraping.
 
-## Disclamer
-Instagram has gone to great lengths to prevent scraping and other unauthorized access to their public content. This module is dependant on the markup the public-facing instagram.com. Should that change this module might also stop working as intended. It also only loads the 17 posts that are displayed on first-load without following pagination to load more images. You should take this into consideration when deciding whether this module will work for you.
+## Disclaimer
+This module scrappes Instagram's public GraphQL data. If they change their structure, this module might break. I use this personally, so I will try to fix as it happens. Feel free to create an issue if not. Just an FYI for anyone thinking about using this on prod. 
 
 ## Installation
 
